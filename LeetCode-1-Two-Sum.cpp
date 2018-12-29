@@ -13,7 +13,7 @@ public:
                 return { hashMap[ key ], index };
             }
             
-            hashMap.insert( { nums[index], index } );
+            hashMap.insert( { nums[ index ], index } );
         }
         
         return { -1, -1 };
